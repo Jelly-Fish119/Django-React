@@ -1,4 +1,4 @@
-# Django React Boilerplate
+# Django React
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](code_of_conduct.md)
 [![License: MIT](https://img.shields.io/github/license/vintasoftware/django-react-boilerplate.svg)](LICENSE.txt)
@@ -15,7 +15,6 @@ A [Django](https://www.djangoproject.com/) project boilerplate/template with a m
 -   [Webpack](https://webpack.js.org/), for bundling static assets
 -   [Celery](https://docs.celeryq.dev/en/stable/), for background worker tasks
 -   [WhiteNoise](https://whitenoise.readthedocs.io/en/stable/) with [brotlipy](https://github.com/python-hyper/brotlicffi), for efficient static files serving
--   [ruff](https://github.com/astral-sh/ruff) and [ESLint](https://eslint.org/) with [pre-commit](https://pre-commit.com/) for automated quality assurance (does not replace proper testing!)
 
 For continuous integration, a [Github Action](https://github.com/features/actions) configuration `.github/workflows/main.yml` is included.
 
